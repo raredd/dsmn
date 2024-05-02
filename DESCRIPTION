@@ -1,0 +1,28 @@
+Package: dsmn
+Type: Package
+Title: Functions for design and monitoring of clinical trials
+Version: 0.9-13
+Authors@R: c(
+  person("Bob", "Gray", email = "gray@jimmy.harvard.edu",
+    role = "aut"),
+  person("Robert", "Redd", email = "rredd@jimmy.harvard.edu",
+    role = "cre")
+  )
+Author: Bob Gray
+Maintainer: Robert Redd <rredd@jimmy.harvard.edu>
+Description: Performs various calculations related to design of studies
+  with either failure time or binary endpoints, and also functions to
+  facilitate monitoring and analysis of such studies, including group
+  sequential studies with failure time endpoints and two stage and
+  randomized phase II studies.
+Imports:
+  survival
+Suggests:
+  knitr,
+  rmarkdown,
+  testthat
+License: GPL-2
+LazyData: yes
+RoxygenNote: 7.2.3
+VignetteBuilder: knitr
+Encoding: UTF-8
